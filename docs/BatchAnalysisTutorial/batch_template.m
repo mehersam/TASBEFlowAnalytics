@@ -1,0 +1,66 @@
+% This template shows how to perform a simple batch analysis of a set of conditions
+% Each color is analyzed independently
+
+% load the color model
+load('../template_colormodel/CM120312.mat');
+
+% set up metadata
+experimentName = 'LacI Transfer Curve';
+
+% Configure the analysis
+% Analyze on a histogram of 10^[first] to 10^[third] MEFL, with bins every 10^[second]
+bins = BinSequence(4,0.1,10,'log_bins');
+
+% Designate which channels have which roles
+AP = AnalysisParameters(bins,{});
+% Ignore any bins with less than valid count as noise
+AP=setMinValidCount(AP,100');
+% Ignore any raw fluorescence values less than this threshold as too contaminated by instrument noise
+AP=setPemDropThreshold(AP,5');
+% Add autofluorescence back in after removing for compensation?
+AP=setUseAutoFluorescence(AP,false');
+
+% Make a map of condition names to file sets
+stem1011 = '../example_assay/LacI-CAGop_';
+file_pairs = {...
+  'Dox 0.1',    {[stem1011 'B3_B03_P3.fcs']}; % Replicates go here, e.g., {[rep1], [rep2], [rep3]}
+  'Dox 0.2',    {[stem1011 'B4_B04_P3.fcs']};
+  'Dox 0.5',    {[stem1011 'B5_B05_P3.fcs']};
+  'Dox 1.0',    {[stem1011 'B6_B06_P3.fcs']};
+  'Dox 2.0',    {[stem1011 'B7_B07_P3.fcs']};
+  'Dox 5.0',    {[stem1011 'B8_B08_P3.fcs']};
+  'Dox 10.0',   {[stem1011 'B9_B09_P3.fcs']};
+  'Dox 20.0',   {[stem1011 'B10_B10_P3.fcs']};
+  'Dox 50.0',   {[stem1011 'B11_B11_P3.fcs']};
+  'Dox 100.0',  {[stem1011 'B12_B12_P3.fcs']};
+  'Dox 200.0',  {[stem1011 'C1_C01_P3.fcs']};
+  'Dox 500.0',  {[stem1011 'C2_C02_P3.fcs']};
+  'Dox 1000.0', {[stem1011 'C3_C03_P3.fcs']};
+  'Dox 2000.0', {[stem1011 'C4_C04_P3.fcs']};
+  };
+
+n_conditions = size(file_pairs,1);
+
+% Execute the actual analysis
+[results sampleresults] = per_color_constitutive_analysis(CM,file_pairs,{'EBFP2','EYFP','mKate'},AP);
+
+% Make output plots
+OS = OutputSettings('LacI-CAGop','','','plots');
+OS.FixedInputAxis = [1e4 1e10];
+plot_batch_histograms(results,sampleresults,OS,{'b','y','r'});
+
+save('LacI-CAGop-batch.mat','AP','bins','file_pairs','OS','results','sampleresults');
+
+% Dump CSV files:
+fprintf('Dumping CSV files\n');
+fid = fopen('LacI-CAGop-batch.csv','w');
+fprintf(fid,'Device ID,datapoints,,,log10 Mean,,,Std.Dev. of mean (fold)\n'); 
+fprintf(fid,',EBFP2,EYFP,mKate,EBFP2,EYFP,mKate,EBFP2,EYFP,mKate\n'); 
+for i=1:n_conditions
+    fprintf(fid,'%s,',file_pairs{i,1});
+    fprintf(fid,'%d,',sum(results{i}.bincounts));
+    fprintf(fid,'%d,',log10(results{i}.means));
+    fprintf(fid,'%d,',results{i}.stdofmeans);
+    fprintf(fid,'\n');
+end
+fclose(fid);
