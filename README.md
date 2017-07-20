@@ -3,7 +3,7 @@ TASBE Flow Analytics package provides a user friendly environment to analyze flo
 INSTALLATION
 
  This project is intended to be run using either Matlab or Octave. A getting started document
-to guide users through installation can be found here. 
+to guide users through installation can be found <a href="https://github.com/mehersam/TASBEFlowAnalytics/blob/gh-pages/docs/tasbe-getting-started-tutorial.pdf">here</a>. 
 
 WORKFLOW
 
