@@ -7,7 +7,9 @@ to guide users through installation can be found <a href="https://github.com/meh
 
 WORKFLOW
 
- The recommended workflow for using the TASBE package is to process your data in three stages: <br /> 
+ The recommended workflow for using the TASBE package is to process your data in three stages: 
+ 
+ 
    a.) Creation of a ColorModel which translates raw FCS data to comparable unit data. <br /> 
    b.) Using the created ColorModel for batch processing of experimental data. <br /> 
    c.) Comparison and Plotting of the results of batch processing.  
