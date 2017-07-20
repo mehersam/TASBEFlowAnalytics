@@ -17,7 +17,7 @@ Example files are provided that show how these stages typically work.
 
 DOCUMENTATION
 
-  We have provided detailed tutorials in order to help users easily use the TASBE package for their 
+  We have provided detailed tutorials in order to help users easily use the TASBE package 
   
   * <a href="https://github.com/mehersam/TASBEFlowAnalytics/tree/gh-pages/docs/GettingStarted"> Getting Started </a> 
   * <a href="https://github.com/mehersam/TASBEFlowAnalytics/tree/gh-pages/docs/FlowCytometryDocumentation"> What is Flow Cytometry? </a> 
