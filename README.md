@@ -29,5 +29,5 @@ DOCUMENTATION
 
 ISSUE TRACKER
 
-Users are encouraged to report any bugs using the Github Issue Tracker which can be found <a href="https://github.com/TASBE/TASBEFlowAnalytics/issues">here</a>
+Users are encouraged to report any bugs using the Github Issue Tracker which can be found <a href="https://github.com/TASBE/TASBEFlowAnalytics/issues">here</a>.
 
