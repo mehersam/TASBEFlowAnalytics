@@ -1,9 +1,11 @@
-This is the TASBE Flow Analytics package, release 1.0.0-alpha
+TASBE Flow Analytics package provides a user friendly environment to analyze flow cytometry data.
 
-This project is intended to be run using either Matlab or Octave.
-To use the package, you should either add it to your path, e.g.:
+INSTALLATION
 
-    addpath('path to package');
+ This project is intended to be run using either Matlab or Octave. A getting started document
+to guide users through installation can be found here. 
+
+WORKFLOW
 
 In use of this package, you will typically want to split your
 processing into three stages:
@@ -13,3 +15,10 @@ processing into three stages:
 - Comparison and plotting of the results of batch processing
 
 Example files are provided that show how these stages typically work.
+
+
+DOCUMENTATION
+
+
+ISSUE TRACKER
+
