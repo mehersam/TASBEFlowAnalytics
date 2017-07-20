@@ -1,4 +1,4 @@
-TASBE Flow Analytics package provides a user friendly, open-source environment to visually analyze flow cytometry data. 
+TASBE Flow Analytics package provides a user friendly, open-source environment to visually represent and analyze flow cytometry data. 
 
 INSTALLATION
 
@@ -11,18 +11,19 @@ WORKFLOW
    a.) Creation of a ColorModel which translates raw FCS data to comparable unit data. 
    b.) Using the created ColorModel for batch processing of experimental data 
    c.) Comparison and Plotting of the results of batch processing. 
-
+ 
 Example files are provided that show how these stages typically work.
-
+   
 
 DOCUMENTATION
 
   We have provided detailed tutorials in order to help users easily use the TASBE package for their 
   
-  * Getting Started 
-  * What is Flow Cytometry?
-  * Creating and Understanding a Color Model
-  * Performing a Batch Analysis
+  * <a href="https://github.com/mehersam/TASBEFlowAnalytics/tree/gh-pages/docs/GettingStarted"> Getting Started </a> 
+  * <a href="https://github.com/mehersam/TASBEFlowAnalytics/tree/gh-pages/docs/FlowCytometryDocumentation"> What is Flow Cytometry? </a> 
+  * <a href="https://github.com/mehersam/TASBEFlowAnalytics/tree/gh-pages/docs/ColorModelTutorial"> Creating and Understanding a Color Model </a> 
+  * <a href="https://github.com/mehersam/TASBEFlowAnalytics/tree/gh-pages/docs/BatchAnalysisTutorial"> Performing a Batch Analysis </a> 
+  * <a href="https://github.com/mehersam/TASBEFlowAnalytics/tree/gh-pages/docs/Example%20Files"> Example Files </a>
 
 ISSUE TRACKER
 
