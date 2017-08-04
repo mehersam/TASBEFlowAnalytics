@@ -18,7 +18,7 @@
 
   </div>
   <div class="container">
-   <img src="https://github.com/mehersam/TASBEFlowAnalytics/blob/gh-pages/docs/assets/color_AutomaticGate.png?raw=true" height="200" width="200" />
+   <img src="https://github.com/mehersam/TASBEFlowAnalytics/blob/gh-pages/docs/assets/AutomaticGate.png?raw=true" height="200" width="200" />
 
   </div>
 </div>
