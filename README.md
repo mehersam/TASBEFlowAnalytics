@@ -1,10 +1,29 @@
+<style>
+    div.container {
+      display:inline-block;
+    }
+
+    p {
+      text-align:center;
+    }
+  </style>
+
 <font size="14">TASBE Flow Analytics package provides a user friendly, open-source environment to visually represent and analyze flow cytometry data.</font> 
 
-<img src="https://github.com/mehersam/TASBEFlowAnalytics/blob/gh-pages/docs/assets/color_compensation.png?raw=true">
+ <div class="container">
+   <img src="https://github.com/mehersam/TASBEFlowAnalytics/blob/gh-pages/docs/assets/color_compensation.png?raw=true" height="200" width="200" />
+  </div>
+  <div class="container">
+   <img src="https://github.com/mehersam/TASBEFlowAnalytics/blob/gh-pages/docs/assets/color_translation.png?raw=true"  height="200" width="200" />
 
-<img src="https://github.com/mehersam/TASBEFlowAnalytics/blob/gh-pages/docs/assets/color_translation.png?raw=true">
+  </div>
+  <div class="container">
+   <img src="https://github.com/mehersam/TASBEFlowAnalytics/blob/gh-pages/docs/assets/color_AutomaticGate.png?raw=true" height="200" width="200" />
 
-<img src="https://github.com/mehersam/TASBEFlowAnalytics/blob/gh-pages/docs/assets/color_AutomaticGate.png?raw=true">
+  </div>
+</div>
+
+
 
 <font size="18"><b>INSTALLATION</b></font>
 
@@ -36,4 +55,5 @@ Example files are provided that show how these stages typically work.
 <font size="18"><b>ISSUE TRACKER</b></font>
 
 Users are encouraged to report any bugs using the Github Issue Tracker which can be found <a href="https://github.com/TASBE/TASBEFlowAnalytics/issues">here</a>.
+
 
