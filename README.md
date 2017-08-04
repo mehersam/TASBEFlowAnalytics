@@ -1,6 +1,6 @@
 TASBE Flow Analytics package provides a user friendly, open-source environment to visually represent and analyze flow cytometry data. 
 
-![useful image]({{ https://github.com/mehersam/TASBEFlowAnalytics/tree/gh-pages/docs}}/assets/color_translation.png)
+<img src="https://github.com/mehersam/TASBEFlowAnalytics/blob/gh-pages/docs/assets/color_translation.png?raw=true">
 
 INSTALLATION
 
