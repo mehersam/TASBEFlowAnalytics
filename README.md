@@ -5,11 +5,11 @@ TASBE Flow Analytics package provides a user friendly, open-source environment t
 
 
 <div class="container">
-   <img src="https://github.com/mehersam/TASBEFlowAnalytics/blob/gh-pages/docs/assets/color_compensation.png?raw=true" height="200" width="100" />
+   <img src="https://github.com/mehersam/TASBEFlowAnalytics/blob/gh-pages/docs/assets/color_compensation.png?raw=true" height="200" width="120" />
 
- <img src="https://github.com/mehersam/TASBEFlowAnalytics/blob/gh-pages/docs/assets/color_translation.png?raw=true"  height="200" width="100" />
+ <img src="https://github.com/mehersam/TASBEFlowAnalytics/blob/gh-pages/docs/assets/color_translation.png?raw=true"  height="200" width="120" />
 
-  <img src="https://github.com/mehersam/TASBEFlowAnalytics/blob/gh-pages/docs/assets/AutomaticGate.png?raw=true" height="200" width="100" />
+  <img src="https://github.com/mehersam/TASBEFlowAnalytics/blob/gh-pages/docs/assets/AutomaticGate.png?raw=true" height="200" width="120" />
 </div>
 
 <font size="9"><b>INSTALLATION</b></font>
