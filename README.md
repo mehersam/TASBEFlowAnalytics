@@ -4,17 +4,17 @@
 
 <div class="container">
    <img src="https://github.com/mehersam/TASBEFlowAnalytics/blob/gh-pages/docs/assets/color_compensation.png?raw=true" height="200" width="200" />
+
+ <img src="https://github.com/mehersam/TASBEFlowAnalytics/blob/gh-pages/docs/assets/color_translation.png?raw=true"  height="200" width="200" />
+
+  <img src="https://github.com/mehersam/TASBEFlowAnalytics/blob/gh-pages/docs/assets/AutomaticGate.png?raw=true" height="200" width="200" />
 </div>
 
-<div class="container">
-   <img src="https://github.com/mehersam/TASBEFlowAnalytics/blob/gh-pages/docs/assets/color_translation.png?raw=true"  height="200" width="200" />
-
-</div>
-  
-<div class="container">
-   <img src="https://github.com/mehersam/TASBEFlowAnalytics/blob/gh-pages/docs/assets/AutomaticGate.png?raw=true" height="200" width="200" />
-  
-</div>
+.container cont{
+display:inline-block;
+width:100px; /* or whatever you want*/
+height:100px; /* same as above */
+}
 
 <font size="9"><b>INSTALLATION</b></font>
 
