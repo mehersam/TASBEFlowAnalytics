@@ -1,14 +1,6 @@
  
-<font size="14">TASBE Flow Analytics package provides a user friendly, open-source environment to visually represent and analyze flow cytometry data.</font> 
+<font size="12">TASBE Flow Analytics package provides a user friendly, open-source environment to visually represent and analyze flow cytometry data.</font> 
 
-<style>
-   div.container {
-      display:inline-block;
-    }
-
-    p {
-      text-align:center;
-    }
 
 <div class="container">
    <img src="https://github.com/mehersam/TASBEFlowAnalytics/blob/gh-pages/docs/assets/color_compensation.png?raw=true" height="200" width="200" />
@@ -23,14 +15,13 @@
    <img src="https://github.com/mehersam/TASBEFlowAnalytics/blob/gh-pages/docs/assets/AutomaticGate.png?raw=true" height="200" width="200" />
   
 </div>
-</style>
 
-<font size="18"><b>INSTALLATION</b></font>
+<font size="12"><b>INSTALLATION</b></font>
 
  This project is intended to be run using either Matlab or Octave. A getting started document
 to guide users through installation can be found <a href="https://github.com/mehersam/TASBEFlowAnalytics/blob/gh-pages/docs/GettingStarted/tasbe-getting-started-tutorial.pdf">here</a>. 
 
-<font size="18"><b>WORKFLOW</b></font>
+<font size="12"><b>WORKFLOW</b></font>
 
  The recommended workflow for using the TASBE package is to process your data in three stages: 
  
@@ -42,7 +33,7 @@ to guide users through installation can be found <a href="https://github.com/meh
 Example files are provided that show how these stages typically work.
    
 
-<font size="18"><b>DOCUMENTATION</b></font>
+<font size="12"><b>DOCUMENTATION</b></font>
 
   We have provided detailed tutorials in order to help users easily use the TASBE package 
   
@@ -52,7 +43,7 @@ Example files are provided that show how these stages typically work.
   * <a href="https://github.com/mehersam/TASBEFlowAnalytics/tree/gh-pages/docs/BatchAnalysisTutorial"> Performing a Batch Analysis </a> 
   * <a href="https://github.com/mehersam/TASBEFlowAnalytics/tree/gh-pages/docs/Example%20Files"> Example Files </a>
 
-<font size="18"><b>ISSUE TRACKER</b></font>
+<font size="12"><b>ISSUE TRACKER</b></font>
 
 Users are encouraged to report any bugs using the Github Issue Tracker which can be found <a href="https://github.com/TASBE/TASBEFlowAnalytics/issues">here</a>.
 
