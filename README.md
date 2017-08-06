@@ -1,29 +1,29 @@
+ 
+<font size="14">TASBE Flow Analytics package provides a user friendly, open-source environment to visually represent and analyze flow cytometry data.</font> 
+
 <style>
-    div.container {
+   div.container {
       display:inline-block;
     }
 
     p {
       text-align:center;
     }
-  </style>
 
-<font size="14">TASBE Flow Analytics package provides a user friendly, open-source environment to visually represent and analyze flow cytometry data.</font> 
-
- <div class="container">
+<div class="container">
    <img src="https://github.com/mehersam/TASBEFlowAnalytics/blob/gh-pages/docs/assets/color_compensation.png?raw=true" height="200" width="200" />
-  </div>
-  <div class="container">
-   <img src="https://github.com/mehersam/TASBEFlowAnalytics/blob/gh-pages/docs/assets/color_translation.png?raw=true"  height="200" width="200" />
-
-  </div>
-  <div class="container">
-   <img src="https://github.com/mehersam/TASBEFlowAnalytics/blob/gh-pages/docs/assets/AutomaticGate.png?raw=true" height="200" width="200" />
-
-  </div>
 </div>
 
+<div class="container">
+   <img src="https://github.com/mehersam/TASBEFlowAnalytics/blob/gh-pages/docs/assets/color_translation.png?raw=true"  height="200" width="200" />
 
+</div>
+  
+<div class="container">
+   <img src="https://github.com/mehersam/TASBEFlowAnalytics/blob/gh-pages/docs/assets/AutomaticGate.png?raw=true" height="200" width="200" />
+  
+</div>
+</style>
 
 <font size="18"><b>INSTALLATION</b></font>
 
