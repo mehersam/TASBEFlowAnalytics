@@ -33,9 +33,9 @@ Example files are provided that show how these stages typically work.
 
   We have provided detailed tutorials in order to help users easily use the TASBE package 
   
-  * <a href="https://github.com/mehersam/TASBEFlowAnalytics/tree/gh-pages/docs/GettingStarted"> Getting Started </a> 
+  * <a href="https://github.com/mehersam/TASBEFlowAnalytics/blob/gh-pages/docs/GettingStarted/tasbe-getting-started-tutorial.pdf">Getting Started </a> 
   * <a href="https://github.com/mehersam/TASBEFlowAnalytics/tree/gh-pages/docs/FlowCytometryDocumentation"> What is Flow Cytometry? </a> 
-  * <a href="https://github.com/mehersam/TASBEFlowAnalytics/tree/gh-pages/docs/ColorModelTutorial"> Creating and Understanding a Color Model </a> 
+  * <a href="https://github.com/mehersam/TASBEFlowAnalytics/tree/gh-pages/docs/ColorModelTutorial/tasbe-color-model.pdf"> Creating and Understanding a Color Model </a> 
   * <a href="https://github.com/mehersam/TASBEFlowAnalytics/tree/gh-pages/docs/BatchAnalysisTutorial"> Performing a Batch Analysis </a> 
   * <a href="https://github.com/mehersam/TASBEFlowAnalytics/tree/gh-pages/docs/Example%20Files"> Example Files </a>
 
