@@ -1,5 +1,5 @@
  
-<font size="9">
+<font size="7">
 TASBE Flow Analytics package provides a user friendly, open-source environment to visually represent and analyze flow cytometry data.</font> 
 
 
